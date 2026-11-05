@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1e5631">
+  <meta name="description" content="Belanja sembako lengkap, segar, dan hemat di Toko Sembako Berkah Jaya. Pesan mudah, siap diantar ke rumah.">
+  <title>Toko Sembako Berkah Jaya | Lengkap, Hemat, Siap Antar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="announcement">
+    <span>Belanja praktis dari rumah</span>
+    <span class="announcement-separator">•</span>
+    <span id="announcement-delivery">Gratis ongkir untuk belanja minimal Rp100.000</span>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="brand" href="#beranda" aria-label="Berkah Jaya, kembali ke beranda">
+        <span class="brand-mark" aria-hidden="true">B<span>J</span></span>
+        <span class="brand-copy"><strong>Berkah Jaya</strong><small>TOKO SEMBAKO</small></span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navigasi utama">
+        <a class="nav-link active" href="#beranda">Beranda</a>
+        <a class="nav-link" href="#produk">Produk</a>
+        <a class="nav-link" href="#keunggulan">Keunggulan</a>
+        <a class="nav-link" href="#kontak">Kontak</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="cart-button" id="open-cart" type="button" aria-label="Buka keranjang">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 11.1a2 2 0 0 0 2 1.6h8.5a2 2 0 0 0 1.9-1.4L21 8H6M10 21a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm8 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"/></svg>
+          <span class="cart-button-label">Keranjang</span>
+          <span class="cart-count" id="cart-count">0</span>
+        </button>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Buka menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="container hero-layout">
+        <div class="hero-content">
+          <span class="eyebrow"><span class="eyebrow-dot"></span> KEBUTUHAN HARIAN, SEMUA ADA</span>
+          <h1>Belanja hemat,<br>masak <span>lebih nikmat.</span></h1>
+          <p>Temukan sembako pilihan dengan harga bersahabat. Tinggal pilih, kami antar sampai depan rumah.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#produk">Belanja sekarang <span aria-hidden="true">→</span></a>
+            <div class="hero-note"><span class="note-icon">✓</span> Segar setiap hari</div>
+          </div>
+          <div class="hero-proof">
+            <div class="avatar-stack" aria-hidden="true"><span>👩🏻</span><span>👨🏽</span><span>👩🏽</span></div>
+            <div><strong>Dipercaya warga sekitar</strong><small>Belanja mudah, hati tenang</small></div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-photo">
+            <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=1100&auto=format&fit=crop&q=85" alt="Berbagai bahan makanan segar di toko sembako" fetchpriority="high">
+          </div>
+          <div class="floating-card delivery-card"><span class="floating-icon">🚚</span><span><strong>Siap diantar</strong><small>Pesan dari rumah saja</small></span></div>
+          <div class="floating-card quality-card"><span class="quality-star">★</span><span><strong>Produk pilihan</strong><small>Kualitas jadi prioritas</small></span></div>
+          <span class="decor decor-one" aria-hidden="true"></span>
+          <span class="decor decor-two" aria-hidden="true"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits" id="keunggulan" aria-label="Keunggulan toko">
+      <div class="container benefit-grid">
+        <article class="benefit-item"><span class="benefit-icon green-icon">✦</span><div><h2>Harga bersahabat</h2><p>Belanja kebutuhan tanpa bikin boros.</p></div></article>
+        <article class="benefit-item"><span class="benefit-icon yellow-icon">♡</span><div><h2>Produk berkualitas</h2><p>Dipilih dengan teliti untuk keluarga.</p></div></article>
+        <article class="benefit-item"><span class="benefit-icon orange-icon">⌁</span><div><h2>Pesan gampang</h2><p>Checkout cepat lewat WhatsApp.</p></div></article>
+        <article class="benefit-item"><span class="benefit-icon mint-icon">↗</span><div><h2>Siap diantar</h2><p>Belanjaan sampai langsung ke rumah.</p></div></article>
+      </div>
+    </section>
+
+    <section class="shop-section section-space" id="produk">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">PILIHAN HARI INI</span>
+            <h2>Belanja kebutuhan <span>keluarga</span></h2>
+            <p>Ada yang dibutuhkan? Temukan semuanya di sini.</p>
+          </div>
+          <label class="search-box">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg>
+            <input id="product-search" type="search" placeholder="Cari kebutuhanmu..." autocomplete="off" aria-label="Cari produk">
+            <kbd>⌕</kbd>
+          </label>
+        </div>
+
+        <div class="category-row" id="category-list" aria-label="Filter kategori produk">
+          <button class="category-chip active" type="button" data-category="semua" aria-pressed="true">Semua produk <span id="all-count">24</span></button>
+          <button class="category-chip" type="button" data-category="beras" aria-pressed="false">Beras & biji</button>
+          <button class="category-chip" type="button" data-category="minyak" aria-pressed="false">Minyak & margarin</button>
+          <button class="category-chip" type="button" data-category="gula" aria-pressed="false">Gula & pemanis</button>
+          <button class="category-chip" type="button" data-category="telur" aria-pressed="false">Telur & tepung</button>
+          <button class="category-chip" type="button" data-category="bumbu" aria-pressed="false">Bumbu & rempah</button>
+          <button class="category-chip" type="button" data-category="instan" aria-pressed="false">Instan & kaleng</button>
+          <button class="category-chip" type="button" data-category="minuman" aria-pressed="false">Minuman & susu</button>
+          <button class="category-chip" type="button" data-category="kebersihan" aria-pressed="false">Rumah tangga</button>
+        </div>
+
+        <div class="products-toolbar">
+          <p id="results-label">Menampilkan semua produk</p>
+          <label class="sort-control">Urutkan:
+            <select id="sort-products" aria-label="Urutkan produk">
+              <option value="popular">Paling populer</option>
+              <option value="price-low">Harga terendah</option>
+              <option value="price-high">Harga tertinggi</option>
+              <option value="name">Nama produk</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="product-grid" id="product-grid" aria-live="polite"></div>
+        <div class="empty-state" id="empty-state" hidden>
+          <span>🔎</span><h3>Produk belum ditemukan</h3><p>Coba kata kunci atau kategori yang berbeda, ya.</p>
+          <button class="button button-outline" id="reset-search" type="button">Lihat semua produk</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="delivery-banner">
+      <div class="container delivery-banner-inner">
+        <div class="banner-art" aria-hidden="true"><span>🛵</span><i>✦</i></div>
+        <div><span class="eyebrow">BELANJA LEBIH PRAKTIS</span><h2>Sembako pilihan, sampai depan rumah.</h2><p>Pesan kebutuhanmu sekarang. Kami siap membantu!</p></div>
+        <a class="button button-light" id="contact-whatsapp" href="#" target="_blank" rel="noopener">Hubungi kami <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="kontak">
+    <div class="container footer-main">
+      <div class="footer-about">
+        <a class="brand footer-brand" href="#beranda"><span class="brand-mark" aria-hidden="true">B<span>J</span></span><span class="brand-copy"><strong>Berkah Jaya</strong><small>TOKO SEMBAKO</small></span></a>
+        <p>Teman belanja kebutuhan harian keluarga. Lengkap, hemat, dan selalu siap membantu.</p>
+      </div>
+      <div class="footer-info"><h2>Informasi toko</h2><p><span>⌖</span><span id="store-address"></span></p><p><span>◷</span><span id="store-hours"></span></p><p><span>☎</span><a id="store-phone" href="#"></a></p></div>
+      <div class="footer-links"><h2>Jelajahi</h2><a href="#produk">Semua produk</a><a href="#keunggulan">Keunggulan kami</a><a id="footer-whatsapp" href="#" target="_blank" rel="noopener">Chat WhatsApp ↗</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> Toko Sembako Berkah Jaya</span><span>Dibuat dengan <b>♥</b> untuk keluarga Indonesia</span></div>
+  </footer>
+
+  <div class="drawer-backdrop" id="drawer-backdrop"></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Keranjang belanja" aria-hidden="true">
+    <div class="drawer-header"><div><span class="eyebrow">PESANANMU</span><h2>Keranjang <span id="drawer-count">(0)</span></h2></div><button class="icon-button" id="close-cart" type="button" aria-label="Tutup keranjang">×</button></div>
+    <div class="cart-items" id="cart-items"></div>
+    <div class="cart-empty" id="cart-empty"><span>🧺</span><h3>Keranjang masih kosong</h3><p>Yuk, pilih kebutuhan favoritmu.</p><button class="button button-primary" id="start-shopping" type="button">Mulai belanja</button></div>
+    <div class="cart-summary" id="cart-summary" hidden>
+      <div class="delivery-message" id="delivery-message"></div>
+      <div class="summary-row"><span>Subtotal</span><strong id="cart-subtotal">Rp0</strong></div>
+      <div class="summary-row"><span>Ongkos kirim</span><strong id="cart-delivery">Rp0</strong></div>
+      <div class="summary-row total-row"><span>Total</span><strong id="cart-total">Rp0</strong></div>
+      <button class="button button-primary checkout-button" id="checkout-button" type="button">Pesan via WhatsApp <span>↗</span></button>
+      <small class="checkout-note">Pesanan akan dikirim ke WhatsApp toko untuk konfirmasi.</small>
+    </div>
+  </aside>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/products.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
